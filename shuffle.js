@@ -21,3 +21,11 @@ var colors = ['blue','red','green','black','gray','coral'];
 
 console.log('original array:', colors);
 console.log('shuffled array:', shuffleArray(colors));
+
+// Another way of shuffle (not very reliable for long arrays)
+function shuffle() {
+  return Math.random() - 0.5;
+}
+
+colors.sort(shuffle);
+console.log('shuffled array2:', colors);
