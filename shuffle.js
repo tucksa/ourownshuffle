@@ -1,4 +1,5 @@
 function shuffleArray(array) {
+  var array = [...array];
   var colorsLength = array.length;
   var shuffledArr = [];
   
