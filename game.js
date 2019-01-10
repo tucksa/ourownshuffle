@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
   function randomInt(x=false) {
     if (x === false) {x = colors.length}
     return Math.floor(Math.random()*x);
@@ -61,6 +60,5 @@ $(document).ready(function() {
   }
 
     main()
-  // onclick
 
 })
